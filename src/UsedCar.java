@@ -58,12 +58,8 @@ public class UsedCar extends CarLab{
 	}
 	@Override
 	public String toString() {
-		return "UsedCar [carMake=" + carMake + ", carModel=" + carModel + ", carYear=" + carYear + ", carPrice="
-				+ carPrice + ", carMiles=" + carMiles + ", carType=" + carType + ", getCarMake()=" + getCarMake()
-				+ ", getCarModel()=" + getCarModel() + ", getCarYear()=" + getCarYear() + ", getCarPrice()="
-				+ getCarPrice() + ", getCarMiles()=" + getCarMiles() + ", getCarType()=" + getCarType()
-				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ "]";
+		return "Make:" + carMake + ", Model:" + carModel + ", Year:" + carYear + ", Price:"
+				+ carPrice + ", Miles:" + carMiles + ", Type:" + carType;
 	}
 	
 	
